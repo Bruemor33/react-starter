@@ -13,6 +13,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "html-webpack-plugin": "^4.5.0",
     "prettier": "^2.1.2",
+    "react-router-dom": "^5.2.0",
     "tslint": "^6.1.3",
     "tslint-react": "^5.0.0",
     "typescript": "^4.0.3",
