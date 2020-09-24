@@ -2,6 +2,8 @@ import * as React from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
 
 import './navigation.styles.scss';
+import Home from '../../../home/home.component';
+import About from '../../../about/about.component';
 
 class Navigation extends React.Component {
   render() {
@@ -9,8 +11,12 @@ class Navigation extends React.Component {
       <div>
         <div id="routing">
           <Switch>
-            <Route path="/">// Put Home Component Here</Route>
-            <Route path="/about">// Put new Component Here</Route>
+            <Route path="/">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
           </Switch>
         </div>
         <div className="navbar">
