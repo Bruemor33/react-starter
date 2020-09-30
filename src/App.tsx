@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import './App.scss';
 import PageInterface from './PageInterface';
 import UnAuthenticatedLayout from './app/shared/layout/unauthenticated-layout/unauthenticated-layout.component';
 
