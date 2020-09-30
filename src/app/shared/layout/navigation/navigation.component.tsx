@@ -9,16 +9,6 @@ class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <div id="routing">
-          <Switch>
-            <Route path="/">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-          </Switch>
-        </div>
         <div className="navbar">
           <div className="home nav-items">
             <Link to="/">Home</Link>
@@ -26,6 +16,16 @@ class Navigation extends React.Component {
           <div className="about nav-items">
             <Link to="/about">About</Link>
           </div>
+        </div>
+        <div id="routing">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+          </Switch>
         </div>
       </div>
     );
