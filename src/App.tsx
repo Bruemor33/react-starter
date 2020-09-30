@@ -6,7 +6,7 @@ import UnAuthenticatedLayout from './app/shared/layout/unauthenticated-layout/un
 class App extends React.Component<PageInterface, {}> {
   render() {
     return (
-      <div>
+      <div className="App">
         <UnAuthenticatedLayout></UnAuthenticatedLayout>
       </div>
     );

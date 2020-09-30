@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 100%;
+  background-color: #d6d6d6;
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-items {
+  margin: 0 1em 0 1em;
+
+  a {
+    color: #282c34;
+  }
+}
