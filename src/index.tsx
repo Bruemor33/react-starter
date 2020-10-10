@@ -7,7 +7,7 @@ import App from './App';
 
 ReactDOM.render(
   <BrowserRouter>
-    <App color="blue" />
+    <App />
   </BrowserRouter>,
   document.getElementById('root')
 );

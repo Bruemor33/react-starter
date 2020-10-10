@@ -1,10 +1,9 @@
 import * as React from 'react';
 
 import './App.scss';
-import PageInterface from './PageInterface';
 import UnAuthenticatedLayout from './app/shared/layout/unauthenticated-layout/unauthenticated-layout.component';
 
-class App extends React.Component<PageInterface, {}> {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
